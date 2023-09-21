@@ -1,0 +1,332 @@
+.wrapper {
+    width: 2100px;
+    flex-wrap: wrap;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #1a202c;
+}
+
+.titulo {
+    color: white;
+    font-size: 70px;
+    margin-bottom: 0px;
+    margin-top: -15px;
+    padding-top: 70px;
+}
+
+.titulo2 {
+    color: white;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.subtitulo {
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.subtitulo2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.linha {
+    display: flex;
+    flex-flow: row wrap;
+}
+.linha2 {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.carrinho {
+    background-color: white;
+    border-color: #2d3748;
+    height: auto;
+    min-height: unset;
+    padding: 20px;
+    margin: 40px;
+    max-width: 1200px;
+    width: 100%;
+    margin-top:30px;
+
+}
+.carrinho2 {
+    background-color: white;
+    border-color: #2d3748;
+    height: auto;
+    min-height: unset;
+    padding: 20px;
+    margin: 40px;
+    max-width: 1200px;
+    width: 100%;
+    margin-top:30px;
+
+}
+
+.carrinho3 {
+    background-color: white;
+    border-color: #2d3748;
+    height: auto;
+    min-height: unset;
+    padding: 20px;
+    margin: auto;
+    max-width: 400px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.coluna-5 {
+    text-align: center;
+    width: 5%;
+    margin-bottom: 5px;
+}
+
+.coluna-10 {
+    text-align: center;
+    width: 10%;
+}
+.coluna-15 {
+    text-align: center;
+    width: 15%;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.coluna-20 {
+    text-align: center;
+    width: 20%;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.coluna-25 {
+    text-align: center;
+    width: 25%;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.coluna-30 {
+    text-align: center;
+    width: 30%;
+}
+.coluna-35 {
+    text-align: center;
+    width: 35%;
+    margin-top: 10px;
+}
+
+.coluna-40 {
+    text-align: center;
+    width: 40%;
+}
+
+.coluna-50 {
+    text-align: center;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.coluna-60 {
+    text-align: center;
+    width: 60%;
+}
+
+.coluna-70 {
+    text-align: center;
+    width: 70%;
+}
+
+.coluna-75 {
+    text-align: center;
+    width: 75%;
+    margin-bottom: 50px;
+}
+.coluna-90 {
+    text-align: center;
+    width: 90%;
+}
+.coluna-95 {
+    text-align: center;
+    width: 95%;
+}
+.coluna-100 {
+    text-align: center;
+    width: 100%;
+}
+
+.container {
+    max-width: 1847px;
+    width: 100%;
+    max-height: 200px;
+    margin-bottom: 100px;
+}
+
+.containerlogin {
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+    max-height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.cabecalho {
+    background-color: #1a202c;
+    height: 50px;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+
+.btn {
+    font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1920 - 320)));
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 10px;
+    margin-top: 1%;
+}
+
+.btnC {
+    font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1920 - 320)));
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 10px;
+    margin-top: 1%;
+}
+
+.btnL {
+    font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1920 - 320)));
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 10px;
+    float: right;
+    margin-top: 1%;
+}
+
+.boximg {
+    width: 300px;
+    height: 225px;
+}
+.boximgcarrinho {
+    width: 100px;
+    height: 100px;
+}
+
+.rodapé {
+    background-color: #1a202c;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 105px;
+    padding-top: 30px;
+}
+
+.distancia {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.myButton {
+    box-shadow: 0px 0px 0px 2px #000000;
+    background: linear-gradient(to bottom, #000000 5%, #476e9e 100%);
+    background-color: #7892c2;
+    border-radius: 10px;
+    border: 1px solid #4e6096;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    margin-top: 10px;
+    font-family: Arial;
+    font-size: 19px;
+    padding: 12px 37px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #283966;
+}
+
+.myButton:hover {
+    background: linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+    background-color: #476e9e;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.inputvalor {
+    width: 40px;
+
+}
+
+.logos {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.instagram {
+    width: 50px;
+    margin-top: -10px;
+}
+
+.sucesso {
+    background-color: green;
+    border-color: #2d3748;
+    height: auto;
+    min-height: unset;
+    padding: 10px 64px;
+    margin: auto;
+    max-width: 1200px;
+    width: 100%;
+    text-align: center;
+}
+
+.pagbutton {
+    font-family: impact;
+    color: #FCFCFC !important;
+    font-size: 21px;
+    text-shadow: 1px 1px 0px #1A202C;
+    box-shadow: 1px 1px 1px #BEE2F9;
+    padding: 11px 29px;
+    border-radius: 28px;
+    border: 3px solid #EBEBEB;
+    background: #1A202C;
+    background: linear-gradient(to top, #1A202C, #1A202C);
+}
+
+.pagbutton:hover {
+    color: #14396A !important;
+    background: #468CCF;
+    background: linear-gradient(to top, #468CCF, #63B8EE);
+}
+.espacebutton{
+    margin: 50px;
+}
+
+.btnclose{
+    margin-top: 20px;
+    background-color: red;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+}
+.espacedescription{
+    margin-top: 50px;
+}
+
+.espacetitulo{
+    padding-left: 10px;
+    margin-bottom: 0px;
+}
+
+.visivel{
+    visibility: hidden;
+}
